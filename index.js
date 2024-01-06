@@ -16,3 +16,23 @@ const scrollHeader = () =>{
                 : header.classList.remove('scroll-header')
 }
 window.addEventListener('scroll', scrollHeader);
+
+
+
+
+const sr = ScrollReveal ({
+    distance:'60px',
+    duration:"1500",
+    delay:"100",
+    reset:false
+    }) 
+    
+    sr.reveal('header' ,{delay:100 , origin: "top"} )
+    sr.reveal('.home-title ' ,{delay:200 , origin: "bottom"} )
+    sr.reveal('.image-land ' ,{delay:400 , origin: "left"} )
+    sr.reveal('.home-description ' ,{delay:900 , origin: "right"} )
+    sr.reveal('.landing .description' ,{delay:700 , origin: "bottom"} )
+    sr.reveal('.special-title' ,{delay:500 , origin: "bottom"} )
+    sr.reveal('.products' ,{delay:800 , origin: "top"} )
+    sr.reveal('.products .box .title ' ,{delay:400 , origin: "bottom"} )
+    sr.reveal('.products .box .description ' ,{delay:500 , origin: "top"} )
