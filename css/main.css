@@ -1,16 +1,17 @@
 /* components  */
 .special-title {
-color: black;
+    color: black;
     background-color: var(--main-color-o);
     text-align: center;
-    box-shadow: 0px 1px 4px var(--alt-color-b),
-    0px -1px 7px var(--alt-color-o);
+    box-shadow: 0px 1px 4px var(--alt-color-b), 0px -1px 7px var(--alt-color-o);
     width: fit-content;
     padding: 10px 30px;
-    margin: 30px auto;
+    margin: 55px auto;
     border-top-left-radius: 19% 53%;
     border-bottom-right-radius: 19% 53%;
     font-size: 25px;
+    /* box-shadow: 7px 7px 1px var(--main-color-b); */
+    box-shadow: 8px 8px 3px black;
 }
 @media (max-height:650px) {
     .special-title {
